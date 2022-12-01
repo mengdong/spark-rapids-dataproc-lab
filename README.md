@@ -1,6 +1,6 @@
 # spark-rapids-dataproc-lab
 
-## Overview Customer Churn
+## 1. Overview Customer Churn
 This demo is derived from [data-science-blueprints](https://github.com/NVIDIA/data-science-blueprints) repository.
 The repository shows a realistic ETL workflow based on synthetic normalized data.  It consists of two pieces:
 
@@ -8,7 +8,7 @@ The repository shows a realistic ETL workflow based on synthetic normalized data
     optionally augmenting it by duplicating records, and
 2. _an ETL notebook_, which performs joins and aggregations in order to generate wide-form data from the synthetic long-form data.
 
-## Services Used
+## 2. Services Used
 * Google Cloud Storage
 * Google Cloud Dataproc
 
