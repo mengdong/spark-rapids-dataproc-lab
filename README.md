@@ -2,11 +2,7 @@
 
 ## 1. Overview Customer Churn
 This demo is derived from [data-science-blueprints](https://github.com/NVIDIA/data-science-blueprints) repository.
-The repository shows a realistic ETL workflow based on synthetic normalized data.  It consists of two pieces:
-
-1.  _an augmentation notebook_, which synthesizes normalized (long-form) data from a wide-form input file,
-    optionally augmenting it by duplicating records, and
-2. _an ETL notebook_, which performs joins and aggregations in order to generate wide-form data from the synthetic long-form data.
+The repository shows a realistic ETL workflow based on synthetic normalized data. 
 
 ## 2. Services Used
 * Google Cloud Storage
@@ -35,7 +31,7 @@ To perform the lab, below are the list of activities to perform. <br>
 
 The lab consists of the following modules.
 
-1, Understand the Data
+1, Create Dataproc cluster and set up runtime environment
 2, Use CPU Spark to process the data and generate Spark history Log
 3, Use Spark RAPIDS Qualification Tool to exam the history log 
 4, Use Spark RAPIDS to process the data
